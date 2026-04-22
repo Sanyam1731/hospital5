@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidyasanmatidas Seva Sanstha — Home</title>
+  <meta name="description" content="Vidyasanmatidas Seva Sanstha — AYUSH Ayurveda & Allopathy hospital, Nimshirgav, Maharashtra." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" type="image/jpeg" href="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" />
+  <link rel="apple-touch-icon" href="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" />
+</head>
+<body class="home-page">
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt" style="color:var(--green-400);margin-right:6px;"></i>Kolhapur-Sangli Road, Nimshirgav-416101, Maharashtra</span>
+      <div class="topbar-right">
+        <a href="tel:+919090651008"><i class="fas fa-phone-alt" style="margin-right:5px;"></i>+91 9090651008</a>
+        <a href="mailto:vidyasanmatidas@gmail.com"><i class="fas fa-envelope" style="margin-right:5px;"></i>vidyasanmatidas@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img class="brand-logo" src="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" alt="Vidyasanmatidas Seva Sanstha logo" />
+        <span class="brand-name">Vidyasanmatidas Seva Sanstha</span>
+        <span class="brand-sub" data-i18n="brand.subtitle">AYUSH + Allopathy</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-nav" id="navbar-menu">
+        <li class="nav-item active"><a class="nav-link" href="index.html" data-i18n="nav.home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="donors.html" data-i18n="nav.donors">Donors</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item">
+          <span class="lang-wrap"><span data-i18n="lang.label">Language</span>
+            <select id="lang-switch" class="lang-switch" aria-label="Language switcher">
+              <option value="en">EN</option><option value="hi">HI</option><option value="mr">MR</option>
+            </select>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge"><i class="fas fa-leaf"></i><span data-i18n="home.pill">AYUSH + Allopathy · Integrated Healthcare</span></div>
+          <h1 class="hero-title">Serving Communities with <span>Compassion</span> &amp; Care</h1>
+          <p class="hero-desc" data-i18n="home.desc">Providing accessible AYUSH (Ayurveda) and Allopathic healthcare services to all, inspired by the Maharashtra DMER AYUSH model of inclusive wellness.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ayush" data-i18n="home.cta.ayush"><i class="fas fa-leaf"></i>Explore AYUSH</a>
+            <a class="btn btn-outline" href="#allopathy" data-i18n="home.cta.allopathy"><i class="fas fa-stethoscope"></i>Allopathy</a>
+            <a class="btn btn-outline" href="#hospitals" data-i18n="home.cta.hospitals"><i class="fas fa-hospital"></i>Hospitals</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3><i class="fas fa-link" style="color:var(--green-400);margin-right:8px;"></i><span data-i18n="home.quick.title">Quick Links</span></h3>
+          <p data-i18n="home.quick.desc">Navigate our services and facilities.</p>
+          <div class="link-grid">
+            <a class="btn btn-ghost btn-sm" href="#hospitals"><i class="fas fa-hospital"></i>Hospitals</a>
+            <a class="btn btn-ghost btn-sm" href="gallery.html"><i class="fas fa-images"></i>Gallery</a>
+            <a class="btn btn-ghost btn-sm" href="donors.html"><i class="fas fa-heart"></i>Donors</a>
+            <a class="btn btn-ghost btn-sm" href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <div class="container">
+    <div class="stats-strip reveal">
+      <div class="stat-item"><span class="stat-number">3</span><div class="stat-label">Hospitals & Centres</div></div>
+      <div class="stat-item"><span class="stat-number">14+</span><div class="stat-label">Dedicated Practitioners</div></div>
+      <div class="stat-item"><span class="stat-number">12+</span><div class="stat-label">Permanent Donors</div></div>
+      <div class="stat-item"><span class="stat-number">∞</span><div class="stat-label">Compassionate Care</div></div>
+    </div>
+  </div>
+
+  <!-- AYUSH SECTION -->
+  <section id="ayush" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label" data-i18n="home.section.ayush">AYUSH</div>
+          <h2 class="section-title" data-i18n="home.section.ayushTitle">Ayurveda Services (OPD &amp; IPD)</h2>
+        </div>
+        <span class="section-hint" data-i18n="home.section.ref">Ref: DMER AYUSH</span>
+      </div>
+      <div class="split reveal">
+        <div class="card">
+          <div class="icon-chip green"><i class="fas fa-leaf"></i></div>
+          <h3 data-i18n="home.opd.title">Outpatient (OPD) — Ayurveda</h3>
+          <p data-i18n="home.opd.desc">Consultations and therapies without admission, delivered by expert Vaidyas.</p>
+          <ul class="card-list">
+            <li>Registration &amp; follow-up desk</li>
+            <li>Ayurvedic consultations: history, examination, diagnosis</li>
+            <li>Specialty clinics: Kayachikitsa, Shalya, Shalakya, Balroga</li>
+            <li>Therapies: Abhyanga, Swedana, Nasya, Basti &amp; more</li>
+            <li>Pharmacy &amp; diagnostic support</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon-chip yellow"><i class="fas fa-bed"></i></div>
+          <h3 data-i18n="home.ipd.title">Inpatient (IPD) — Ayurveda</h3>
+          <p data-i18n="home.ipd.desc">Continuous therapies with admission and full clinical monitoring.</p>
+          <ul class="card-list">
+            <li>Admission under senior physician guidance</li>
+            <li>Panchakarma: Vaman, Virechan, Basti, Nasya &amp; more</li>
+            <li>24/7 supervision by doctors &amp; nursing staff</li>
+            <li>Customised diet &amp; lifestyle guidance</li>
+            <li>Structured discharge &amp; follow-up plan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALLOPATHY SECTION -->
+  <section id="allopathy" class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label" data-i18n="home.section.allopathy">Allopathy</div>
+          <h2 class="section-title" data-i18n="home.section.allopathyTitle">Allopathic Services</h2>
+        </div>
+      </div>
+      <div class="grid-3 reveal">
+        <div class="card">
+          <div class="icon-chip blue"><i class="fas fa-user-md"></i></div>
+          <h3 data-i18n="home.card.opd">OPD Consultations</h3>
+          <p data-i18n="home.card.opdDesc">Doctor consultations, follow-ups, and prescriptions for common and specialty care.</p>
+        </div>
+        <div class="card">
+          <div class="icon-chip red"><i class="fas fa-hospital"></i></div>
+          <h3 data-i18n="home.card.ipd">IPD Admissions</h3>
+          <p data-i18n="home.card.ipdDesc">Inpatient care with continuous monitoring, nursing support, and discharge planning.</p>
+        </div>
+        <div class="card">
+          <div class="icon-chip green"><i class="fas fa-flask"></i></div>
+          <h3 data-i18n="home.card.diag">Diagnostics &amp; Pharmacy</h3>
+          <p data-i18n="home.card.diagDesc">Supportive investigations and medicine dispensing as prescribed by our clinical team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOSPITALS SECTION -->
+  <section id="hospitals" class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label" data-i18n="home.section.hospitals">Hospitals</div>
+          <h2 class="section-title" data-i18n="home.section.hospitalsTitle">Our Hospitals &amp; Centres</h2>
+        </div>
+      </div>
+
+      <div class="grid-3 reveal" style="margin-bottom:24px;">
+        <div class="card hospital-card hcard-ayush">
+          <div class="hospital-card-header">
+            <div class="hospital-thumb">
+              <img src="img/vidyasagar%20maharaj.png" alt="Acharya Shri Vidyasagar Maharajaji" loading="lazy" decoding="async" />
+            </div>
+            <div class="icon-chip red"><i class="fas fa-leaf"></i></div>
+            <div>
+              <h3 style="font-size:.9rem;">Saint Shiromani Param Poojya 108 Acharya Shri Vidyasagar Maharajaji</h3>
+              <span style="font-size:.75rem;color:var(--green-600);font-weight:700;">Ayurvedic Chikitsalaya</span>
+            </div>
+          </div>
+          <div class="hospital-card-body">
+            <p>Providing traditional Ayurvedic care to bridge the gap in accessible healthcare. The private sector plays a vital role in reaching underserved communities while maintaining quality and sustainability.</p>
+          </div>
+        </div>
+        <div class="card hospital-card hcard-allo">
+          <div class="hospital-card-header">
+            <div class="icon-chip yellow" style="font-size:1.4rem;">💊</div>
+            <div>
+              <h3 style="font-size:.9rem;">Acharya Ratna Parama Poojya 108 Bahubaliji Maharaj</h3>
+              <span style="font-size:.75rem;color:var(--saffron);font-weight:700;">Allopathic Chikitsalaya</span>
+            </div>
+          </div>
+          <div class="hospital-card-body">
+            <p>Modern allopathic medical care made accessible to all segments of society, addressing the ever-increasing need for quality healthcare services across Maharashtra.</p>
+          </div>
+        </div>
+        <div class="card hospital-card hcard-diag">
+          <div class="hospital-card-header">
+            <div class="hospital-thumb">
+              <img src="img/sanmati-sagar%20maharaj.jpeg" alt="Acharyashree Sanmati Sagarji Maharaj" loading="lazy" decoding="async" />
+            </div>
+            <div class="icon-chip blue" style="font-size:1.4rem;">🩺</div>
+            <div>
+              <h3 style="font-size:.9rem;">Shant-Murti Parama Poojya 108 Acharyashree Sanmati Sagarji Maharaj</h3>
+              <span style="font-size:.75rem;color:#2563eb;font-weight:700;">Nidaan Kendra (Diagnostic)</span>
+            </div>
+          </div>
+          <div class="hospital-card-body">
+            <p>Dedicated diagnostic centre offering accurate and affordable investigations to support timely treatment decisions for patients across the region.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bhavan & Doctors -->
+      <div class="split reveal">
+        <div class="card">
+          <div class="icon-chip green"><i class="fas fa-building"></i></div>
+          <h3>Specified Bhavans &amp; Facilities</h3>
+          <div class="bhavan-list" style="margin-top:14px;">
+            <div class="bhavan-item"><i class="fas fa-place-of-worship"></i><span>Sri 1008 Bhagavana Candraprabha Digambara Jaina Mandira — ₹21 Lakh</span></div>
+            <div class="bhavan-item"><i class="fas fa-home"></i><span>Munishree Akshayasaagarajee Mahaaraaj Tyaagee Bhavan — ₹11 Lakh (3 rooms)</span></div>
+            <div class="bhavan-item"><i class="fas fa-spa"></i><span>Vineet-Chandraprabh Tyaagee Panchakarm Kaksh — ₹7 Lakh</span></div>
+            <div class="bhavan-item"><i class="fas fa-utensils"></i><span>Mallee-Samayamatee Aahaarabhavan — ₹11 Lakh</span></div>
+            <div class="bhavan-item"><i class="fas fa-utensils"></i><span>Swastishree Jinsenji Bhattar's Bhojanalaya — ₹25 Lakh</span></div>
+            <div class="bhavan-item"><i class="fas fa-ambulance"></i><span>Jinwani Ambulance — ₹5 Lakh</span></div>
+            <div class="bhavan-item"><i class="fas fa-house-user"></i><span>Acharya Pushpadantsagarji Maharaj Vaidya Niwas (1BHK) — ₹25 Lakh</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon-chip"><i class="fas fa-user-nurse"></i></div>
+          <h3>Our Dedicated Practitioners</h3>
+          <div class="doctor-grid" style="margin-top:14px;grid-template-columns:repeat(2,1fr);">
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/pradeep-madnaik.jpg" alt="Dr. Pradeep Madnaik" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Pradeep Madnaik</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/mamta-madnaik.jpg" alt="Dr. Mrs. Mamta Madnaik" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Mrs. Mamta Madnaik</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/jayakanta-badabade.jpg" alt="Dr. Jayakanta Badabade" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Jayakanta Badabade</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/savita-sidanale.jpg" alt="Dr. Savita Sidanale" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Savita Sidanale</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/arati-s-patil.jpg" alt="Vd. Arati S. Patil" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Vd. Arati S. Patil</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/nikita-magdum.jpg" alt="Dr. Nikita Magdum" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Nikita Magdum</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/kshitija-patil.jpg" alt="Dr. Kshitija Patil" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Kshitija Patil</div>
+            </div>
+            <div class="doctor-card">
+              <div class="doctor-avatar no-photo">
+                <img class="doctor-photo" src="img/doctors/ashok-jangate.jpg" alt="Dr. Ashok Jangate" loading="lazy" decoding="async" />
+                <i class="fas fa-user-md" aria-hidden="true"></i>
+              </div>
+              <div class="doctor-name">Dr. Ashok Jangate</div>
+            </div>
+          </div>
+          <p style="margin-top:10px;font-size:.8rem;color:var(--muted);text-align:center;">…and 6 more dedicated practitioners</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-name">Vidyasanmatidas Seva Sanstha</div>
+          <div class="brand-tagline">AYUSH + Allopathy · Compassionate Care</div>
+          <p>Providing accessible and affordable healthcare services across Maharashtra, bridging the gap between traditional and modern medicine.</p>
+          <div class="social-links" style="margin-top:16px;">
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading" data-i18n="nav.home">Navigation</div>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="footer.home">Home</a>
+            <a href="about.html" data-i18n="footer.about">About</a>
+            <a href="gallery.html" data-i18n="footer.gallery">Gallery</a>
+            <a href="donors.html" data-i18n="footer.donors">Donors</a>
+            <a href="contact.html" data-i18n="footer.contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Services</div>
+          <div class="footer-links">
+            <a href="#ayush">AYUSH / Ayurveda</a>
+            <a href="#allopathy">Allopathy</a>
+            <a href="#hospitals">Hospitals</a>
+            <a href="contact.html">Appointments</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading" data-i18n="footer.contact_info">Contact Info</div>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><div><a href="tel:+919090651008">+91 9090651008</a></div></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><div><a href="mailto:vidyasanmatidas@gmail.com">vidyasanmatidas@gmail.com</a></div></div>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><div>Kolhapur-Sangli Road, Ichalkaranji cross, Nimshirgav-416101, Maharashtra</div></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Vidyasanmatidas Seva Sanstha. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span>Designed with ❤️ for community healthcare</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="app.js"></script>
+  <script src="i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery — Vidyasanmatidas Seva Sanstha</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" type="image/jpeg" href="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" />
+  <link rel="apple-touch-icon" href="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" />
+</head>
+<body class="gallery-page">
+
+  <div class="topbar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt" style="color:var(--green-400);margin-right:6px;"></i>Kolhapur-Sangli Road, Nimshirgav-416101, Maharashtra</span>
+      <div class="topbar-right">
+        <a href="tel:+919090651008"><i class="fas fa-phone-alt" style="margin-right:5px;"></i>+91 9090651008</a>
+        <a href="mailto:vidyasanmatidas@gmail.com"><i class="fas fa-envelope" style="margin-right:5px;"></i>vidyasanmatidas@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img class="brand-logo" src="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" alt="Vidyasanmatidas Seva Sanstha logo" />
+        <span class="brand-name">Vidyasanmatidas Seva Sanstha</span>
+        <span class="brand-sub" data-i18n="brand.subtitle">AYUSH + Allopathy</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-nav" id="navbar-menu">
+        <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav.home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About</a></li>
+        <li class="nav-item active"><a class="nav-link" href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="donors.html" data-i18n="nav.donors">Donors</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item">
+          <span class="lang-wrap"><span data-i18n="lang.label">Language</span>
+            <select id="lang-switch" class="lang-switch" aria-label="Language switcher">
+              <option value="en">EN</option><option value="hi">HI</option><option value="mr">MR</option>
+            </select>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span>Gallery</span></div>
+      <h1 data-i18n="gallery.title">Gallery</h1>
+      <p data-i18n="gallery.hero">Photos of facilities, hospital activities, and milestone events.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Gallery Slider -->
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label">Highlights</div>
+          <h2 class="section-title">Photo Slider</h2>
+        </div>
+      </div>
+      <div class="gallery-slider gallery-slider--marquee reveal" aria-label="Gallery sliding photos">
+        <div class="gallery-viewport">
+          <div class="gallery-track">
+            <figure class="gallery-slide">
+              <img src="img/vidyasagar%20maharaj.png" alt="Vidyasagar Maharaj" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Vidyasagar Maharaj</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="img/sanmati-sagar%20maharaj.jpeg" alt="Sanmati Sagar Maharaj" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Sanmati Sagar Maharaj</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="img/chandaraprabhu%20maharaj.jpeg" alt="Chandaraprabhu Maharaj" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Chandaraprabhu Maharaj</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="img/WhatsApp%20Image%202026-04-20%20at%209.15.50%20PM.jpeg" alt="Hospital activity" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Hospital Activity</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="img/dr%20jyotsna.jpeg" alt="Medical Team" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Medical Team</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="img/Pradeep%20Madniak%20.jpeg" alt="Medical Team" loading="lazy" decoding="async" />
+              <figcaption class="gallery-cap">Medical Team</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label">Foundation</div>
+          <h2 class="section-title" data-i18n="gallery.sec1">Hospital Paya Bharani</h2>
+        </div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec1">Hospital Paya Bharani</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec1">Hospital Paya Bharani</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec1">Hospital Paya Bharani</div>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="section-header reveal" style="margin-top:48px;">
+        <div>
+          <div class="section-label">Inauguration</div>
+          <h2 class="section-title" data-i18n="gallery.sec2">Hospital Shilannyas</h2>
+        </div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec2">Hospital Shilannyas</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec2">Hospital Shilannyas</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span data-i18n="gallery.photo">Photo</span></div>
+          <div class="gallery-cap" data-i18n="gallery.sec2">Hospital Shilannyas</div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="section-header reveal" style="margin-top:48px;">
+        <div>
+          <div class="section-label">More</div>
+          <h2 class="section-title" data-i18n="gallery.sec3">Other Activities</h2>
+        </div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span>Hospital Facility</span></div>
+          <div class="gallery-cap">Hospital Facility</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span>Medical Team</span></div>
+          <div class="gallery-cap">Medical Team</div>
+        </div>
+        <div class="gallery-tile">
+          <div class="tile-placeholder"><i class="fas fa-image"></i><span>Community Event</span></div>
+          <div class="gallery-cap">Community Event</div>
+        </div>
+      </div>
+
+      <div class="card reveal" style="margin-top:32px;background:var(--green-50);border-color:var(--green-400);">
+        <div style="display:flex;gap:12px;align-items:flex-start;">
+          <i class="fas fa-info-circle" style="color:var(--green-500);margin-top:3px;font-size:1.1rem;"></i>
+          <p style="font-size:.875rem;color:var(--muted);" data-i18n="gallery.note">Note: This project currently uses placeholder tiles. Add image files (JPG/PNG) into an <code>images/</code> folder and replace the placeholder tiles with <code>&lt;img&gt;</code> tags to display real photographs.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-name">Vidyasanmatidas Seva Sanstha</div>
+          <div class="brand-tagline">AYUSH + Allopathy · Compassionate Care</div>
+          <p>Providing accessible and affordable healthcare services across Maharashtra.</p>
+          <div class="social-links" style="margin-top:16px;">
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Navigation</div>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="footer.home">Home</a>
+            <a href="about.html" data-i18n="footer.about">About</a>
+            <a href="gallery.html" data-i18n="footer.gallery">Gallery</a>
+            <a href="donors.html" data-i18n="footer.donors">Donors</a>
+            <a href="contact.html" data-i18n="footer.contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Services</div>
+          <div class="footer-links">
+            <a href="index.html#ayush">AYUSH / Ayurveda</a>
+            <a href="index.html#allopathy">Allopathy</a>
+            <a href="index.html#hospitals">Hospitals</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading" data-i18n="footer.contact_info">Contact Info</div>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><div><a href="tel:+919090651008">+91 9090651008</a></div></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><div><a href="mailto:vidyasanmatidas@gmail.com">vidyasanmatidas@gmail.com</a></div></div>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><div>Nimshirgav-416101, Maharashtra</div></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Vidyasanmatidas Seva Sanstha. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span>Designed with ❤️ for community healthcare</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="app.js"></script>
+  <script src="i18n.js"></script>
+</body>
+</html>
