@@ -28,11 +28,18 @@
   }
 
   const backToTop = document.querySelector('.back-to-top');
+  const navbar = document.querySelector('.navbar');
 
   const onScroll = () => {
-    if (!backToTop) return;
-    if (window.scrollY > 600) backToTop.classList.add('is-visible');
-    else backToTop.classList.remove('is-visible');
+    if (backToTop) {
+      if (window.scrollY > 600) backToTop.classList.add('is-visible');
+      else backToTop.classList.remove('is-visible');
+    }
+
+    if (navbar) {
+      if (window.scrollY > 10) navbar.classList.add('is-scrolled');
+      else navbar.classList.remove('is-scrolled');
+    }
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
